@@ -1,6 +1,6 @@
 	.cpu generic+fp+simd
 	.file	"devicetable-offsets.c"
-// GNU C (GCC) version 4.9.x 20150123 (prerelease) (aarch64-linux-android)
+// GNU C (GCC) version 4.9.x-google 20150123 (prerelease) (aarch64-linux-android)
 //	compiled by GNU C version 4.8, GMP version 5.0.5, MPFR version 3.1.1, MPC version 1.0.1
 // GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 // options passed:  -nostdinc -I ./arch/arm64/include
@@ -8,12 +8,12 @@
 // -I arch/arm64/include/generated/uapi -I ./include/uapi
 // -I include/generated/uapi
 // -I drivers/gud/gud-exynos7870/MobiCoreDriver/mci/
-// -iprefix /home/dpi/qb5_8814/workspace/P4_1716/android/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x/
+// -iprefix /home/grahame/toolchains/Toolchains-for-Eureka-GCC-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/
 // -D __KERNEL__ -D ANDROID_VERSION=90000 -D ANDROID_MAJOR_VERSION=p
 // -D TIMA_LKM_AUTH_ENABLED -D KBUILD_STR(s)=#s
 // -D KBUILD_BASENAME=KBUILD_STR(devicetable_offsets)
 // -D KBUILD_MODNAME=KBUILD_STR(devicetable_offsets)
-// -isystem /home/dpi/qb5_8814/workspace/P4_1716/android/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x/include
+// -isystem /home/grahame/toolchains/Toolchains-for-Eureka-GCC-4.9/bin/../lib/gcc/aarch64-linux-android/4.9.x-google/include
 // -include ./include/linux/kconfig.h
 // -MD scripts/mod/.devicetable-offsets.s.d
 // scripts/mod/devicetable-offsets.c -mbionic -mlittle-endian
@@ -980,18 +980,14 @@ main:
 	.string	"long long int"
 .LASF4:
 	.string	"unsigned int"
+.LASF14:
+	.string	"/home/grahame/j701-P"
 .LASF15:
 	.string	"main"
-.LASF12:
-	.ascii	"GNU C 4.9.x 20150123 (prerelease) -mbionic -mlittle-endian -"
-	.ascii	"mgeneral-regs-only -mabi=lp64 -g -Os -std=gnu90 -fno-strict-"
-	.string	"aliasing -fno-common -fno-delete-null-pointer-checks -fno-PIE -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -fno-strict-overflow -fstack-check=no -fconserve-stack --param allow-store-data-races=0"
 .LASF7:
 	.string	"long unsigned int"
 .LASF6:
 	.string	"long long unsigned int"
-.LASF14:
-	.string	"/home/dpi/qb5_8814/workspace/P4_1716/android/kernel/exynos7870"
 .LASF1:
 	.string	"unsigned char"
 .LASF9:
@@ -1000,6 +996,11 @@ main:
 	.string	"long int"
 .LASF11:
 	.string	"_Bool"
+.LASF12:
+	.ascii	"GNU C 4.9.x-google 20150123 (prerelease) -mbionic -mlittle-e"
+	.ascii	"ndian -mgeneral-regs-only -mabi=lp64 -g -Os -std=gnu90 -fno-"
+	.ascii	"strict-"
+	.string	"aliasing -fno-common -fno-delete-null-pointer-checks -fno-PIE -fstack-protector-strong -fno-omit-frame-pointer -fno-optimize-sibling-calls -fno-var-tracking-assignments -fno-strict-overflow -fstack-check=no -fconserve-stack --param allow-store-data-races=0"
 .LASF3:
 	.string	"short unsigned int"
 .LASF0:
@@ -1010,5 +1011,5 @@ main:
 	.string	"short int"
 .LASF8:
 	.string	"sizetype"
-	.ident	"GCC: (GNU) 4.9.x 20150123 (prerelease)"
+	.ident	"GCC: (GNU) 4.9.x-google 20150123 (prerelease)"
 	.section	.note.GNU-stack,"",%progbits
